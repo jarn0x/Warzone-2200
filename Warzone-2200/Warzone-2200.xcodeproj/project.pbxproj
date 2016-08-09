@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BABE4131D59F7E200DA39B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BABE4121D59F7E200DA39B0 /* AppDelegate.swift */; };
+		2BABE4151D59F7E200DA39B0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BABE4141D59F7E200DA39B0 /* GameViewController.swift */; };
+		2BABE4171D59F7E200DA39B0 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2BABE4161D59F7E200DA39B0 /* Shaders.metal */; };
+		2BABE4191D59F7E200DA39B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BABE4181D59F7E200DA39B0 /* Assets.xcassets */; };
+		2BABE41C1D59F7E200DA39B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BABE41A1D59F7E200DA39B0 /* MainMenu.xib */; };
+		2BABE4271D59F7E200DA39B0 /* Warzone_2200Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BABE4261D59F7E200DA39B0 /* Warzone_2200Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BABE4231D59F7E200DA39B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BABE4071D59F7E200DA39B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BABE40E1D59F7E200DA39B0;
+			remoteInfo = "Warzone-2200";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BABE40F1D59F7E200DA39B0 /* Warzone-2200.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warzone-2200.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BABE4121D59F7E200DA39B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BABE4141D59F7E200DA39B0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2BABE4161D59F7E200DA39B0 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		2BABE4181D59F7E200DA39B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BABE41B1D59F7E200DA39B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2BABE41D1D59F7E200DA39B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BABE4221D59F7E200DA39B0 /* Warzone-2200Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Warzone-2200Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BABE4261D59F7E200DA39B0 /* Warzone_2200Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warzone_2200Tests.swift; sourceTree = "<group>"; };
+		2BABE4281D59F7E200DA39B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BABE40C1D59F7E200DA39B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BABE41F1D59F7E200DA39B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BABE4061D59F7E200DA39B0 = {
+			isa = PBXGroup;
+			children = (
+				2BABE4111D59F7E200DA39B0 /* Warzone-2200 */,
+				2BABE4251D59F7E200DA39B0 /* Warzone-2200Tests */,
+				2BABE4101D59F7E200DA39B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BABE4101D59F7E200DA39B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BABE40F1D59F7E200DA39B0 /* Warzone-2200.app */,
+				2BABE4221D59F7E200DA39B0 /* Warzone-2200Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BABE4111D59F7E200DA39B0 /* Warzone-2200 */ = {
+			isa = PBXGroup;
+			children = (
+				2BABE4121D59F7E200DA39B0 /* AppDelegate.swift */,
+				2BABE4141D59F7E200DA39B0 /* GameViewController.swift */,
+				2BABE4161D59F7E200DA39B0 /* Shaders.metal */,
+				2BABE4181D59F7E200DA39B0 /* Assets.xcassets */,
+				2BABE41A1D59F7E200DA39B0 /* MainMenu.xib */,
+				2BABE41D1D59F7E200DA39B0 /* Info.plist */,
+			);
+			path = "Warzone-2200";
+			sourceTree = "<group>";
+		};
+		2BABE4251D59F7E200DA39B0 /* Warzone-2200Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BABE4261D59F7E200DA39B0 /* Warzone_2200Tests.swift */,
+				2BABE4281D59F7E200DA39B0 /* Info.plist */,
+			);
+			path = "Warzone-2200Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BABE40E1D59F7E200DA39B0 /* Warzone-2200 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BABE42B1D59F7E200DA39B0 /* Build configuration list for PBXNativeTarget "Warzone-2200" */;
+			buildPhases = (
+				2BABE40B1D59F7E200DA39B0 /* Sources */,
+				2BABE40C1D59F7E200DA39B0 /* Frameworks */,
+				2BABE40D1D59F7E200DA39B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Warzone-2200";
+			productName = "Warzone-2200";
+			productReference = 2BABE40F1D59F7E200DA39B0 /* Warzone-2200.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BABE4211D59F7E200DA39B0 /* Warzone-2200Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BABE42E1D59F7E200DA39B0 /* Build configuration list for PBXNativeTarget "Warzone-2200Tests" */;
+			buildPhases = (
+				2BABE41E1D59F7E200DA39B0 /* Sources */,
+				2BABE41F1D59F7E200DA39B0 /* Frameworks */,
+				2BABE4201D59F7E200DA39B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BABE4241D59F7E200DA39B0 /* PBXTargetDependency */,
+			);
+			name = "Warzone-2200Tests";
+			productName = "Warzone-2200Tests";
+			productReference = 2BABE4221D59F7E200DA39B0 /* Warzone-2200Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BABE4071D59F7E200DA39B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Jarno;
+				TargetAttributes = {
+					2BABE40E1D59F7E200DA39B0 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					2BABE4211D59F7E200DA39B0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 2BABE40E1D59F7E200DA39B0;
+					};
+				};
+			};
+			buildConfigurationList = 2BABE40A1D59F7E200DA39B0 /* Build configuration list for PBXProject "Warzone-2200" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BABE4061D59F7E200DA39B0;
+			productRefGroup = 2BABE4101D59F7E200DA39B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BABE40E1D59F7E200DA39B0 /* Warzone-2200 */,
+				2BABE4211D59F7E200DA39B0 /* Warzone-2200Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BABE40D1D59F7E200DA39B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BABE4191D59F7E200DA39B0 /* Assets.xcassets in Resources */,
+				2BABE41C1D59F7E200DA39B0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BABE4201D59F7E200DA39B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BABE40B1D59F7E200DA39B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BABE4171D59F7E200DA39B0 /* Shaders.metal in Sources */,
+				2BABE4151D59F7E200DA39B0 /* GameViewController.swift in Sources */,
+				2BABE4131D59F7E200DA39B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BABE41E1D59F7E200DA39B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BABE4271D59F7E200DA39B0 /* Warzone_2200Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BABE4241D59F7E200DA39B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BABE40E1D59F7E200DA39B0 /* Warzone-2200 */;
+			targetProxy = 2BABE4231D59F7E200DA39B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BABE41A1D59F7E200DA39B0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BABE41B1D59F7E200DA39B0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BABE4291D59F7E200DA39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BABE42A1D59F7E200DA39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BABE42C1D59F7E200DA39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Warzone-2200/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarno.wz2200.Warzone-2200";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BABE42D1D59F7E200DA39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Warzone-2200/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarno.wz2200.Warzone-2200";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BABE42F1D59F7E200DA39B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Warzone-2200Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarno.wz2200.Warzone-2200Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warzone-2200.app/Contents/MacOS/Warzone-2200";
+			};
+			name = Debug;
+		};
+		2BABE4301D59F7E200DA39B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Warzone-2200Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarno.wz2200.Warzone-2200Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warzone-2200.app/Contents/MacOS/Warzone-2200";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BABE40A1D59F7E200DA39B0 /* Build configuration list for PBXProject "Warzone-2200" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BABE4291D59F7E200DA39B0 /* Debug */,
+				2BABE42A1D59F7E200DA39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BABE42B1D59F7E200DA39B0 /* Build configuration list for PBXNativeTarget "Warzone-2200" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BABE42C1D59F7E200DA39B0 /* Debug */,
+				2BABE42D1D59F7E200DA39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BABE42E1D59F7E200DA39B0 /* Build configuration list for PBXNativeTarget "Warzone-2200Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BABE42F1D59F7E200DA39B0 /* Debug */,
+				2BABE4301D59F7E200DA39B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BABE4071D59F7E200DA39B0 /* Project object */;
+}
