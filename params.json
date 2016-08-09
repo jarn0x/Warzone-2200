@@ -1,0 +1,6 @@
+{
+  "name": "Warzone-2200",
+  "tagline": "Warzone 2200 is a new engine for Warzone 2100's content, rebuilt from scratch.",
+  "body": "### What Is Warzone 2200?\r\nWell, there's another game called Warzone 2100. It was originally made by Eidos, which released it to the open source community. The engine has been updated here and there, but we're taking a more radical approach. We've rebuilt the engine from scratch. We also integrate new features and revamp the whole UI to be look and feel modern. All original and new content (especially the huge technology tree) are all present in Warzone 2200!\r\n\r\n### Engine Overview\r\nThe engine is build on Metal, this makes for a very snappy engine. The engine has improved pathfinding and steering abilities. As well as better cooperation, and support for formations (which has been a requested feature for a long long time).",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
